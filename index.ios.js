@@ -12,12 +12,12 @@ import {
   View
 } from 'react-native';
 
-export default class firstApp extends Component {
+export default class RNPhotography extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Native!hh
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('firstApp', () => firstApp);
+AppRegistry.registerComponent('RNPhotography', () => RNPhotography);
